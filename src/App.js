@@ -9,6 +9,7 @@ import { auth } from "./firebase.config";
 import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 import { toast, Toaster } from "react-hot-toast";
 
+
 const App = () => {
   const [otp, setOtp] = useState("");
   const [ph, setPh] = useState("");
